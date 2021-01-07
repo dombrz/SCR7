@@ -10,7 +10,7 @@ void *func(void *id_arg)
   id_2=(int)id_arg;
   
   
-  printf("Hello SCR. Written by thread %ld\n", id_2);
+  printf("Hello SCR. Written by thread %d\n", id_2);
 
   pthread_exit(NULL);
 }
